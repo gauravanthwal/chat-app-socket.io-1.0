@@ -1,0 +1,54 @@
+/*  ********  join form  ************ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(6, 41, 20);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+.centered-div{
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    background: rgb(7, 65, 41);
+    max-width: 600px;
+    padding: 50px;
+}
+#join-form{
+    display: flex;
+    flex-flow: column;
+    max-width: 600px;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+
+input{
+    margin-bottom:10px ;
+    padding: 10px 20px;
+    width: 530px;
+    background-color: #fafafa;
+    border: none;
+    outline: none;
+    color: #000;
+    transition: .3s;
+}
+button{
+    margin: 10px 0;
+    width: 100px;
+    padding: 10px 20px ;
+    background-color: #113022; 
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+button:hover{
+    background-color: #135839; 
+}
